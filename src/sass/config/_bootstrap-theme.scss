@@ -1,0 +1,53 @@
+.radio {
+    margin: 0;
+    input {
+        display: none;
+    }
+    label {
+        padding: 5px 6px;
+        background-color: white;
+        border-radius: 15px;
+        display: block;
+        text-align: left;
+        span {
+            line-height: 1;
+            color: black;
+            font-size: 16px;
+            font-weight: bold;
+            display: inline-block;
+            position: relative;
+            top: 2px;
+            @include media(xs) {
+                font-size: 13px;
+                top: 1px;
+                display: inline;
+            }
+        }
+        &:before {
+            content: '';
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            background-color: white;
+            border: 9px solid #94b782;
+            -webkit-border-radius:15px;
+            -moz-border-radius:15px;
+            border-radius: 15px;
+            vertical-align: middle;
+            margin-right: 4px;
+        }
+    }
+    input:checked+label {
+        &:before {
+            border: 3px solid #b32d2d;
+        }
+    }
+
+}
+
+.iScrollVerticalScrollbar, .iScrollLoneScrollbar {
+    display: none;
+}
+.donthyphenate {
+    display: none;
+}

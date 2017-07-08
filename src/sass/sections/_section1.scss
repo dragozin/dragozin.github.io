@@ -1,0 +1,544 @@
+.section1 {
+
+    .fp-tableCell {
+        background-image: url("../img/Layer-51.png");
+        -webkit-background-size: cover;
+        background-size: cover;
+        //padding: 27px 0;
+        >.container {
+            height: 100%;
+            padding: 27px 0 26px;
+            @include media(xs) {
+                padding: 14px 12px 20px;
+            }
+        }
+        .fp-scroller {
+            >.container {
+                height: 100%;
+                padding: 27px 0 26px;
+                @include media(xs) {
+                    padding: 14px 12px 20px;
+                }
+            }
+        }
+
+    }
+
+
+    &__inner {
+        width: 100%;
+        margin: 0 auto;
+        height: 100%;
+        display: table;
+        @include media(xs) {
+            display: block;
+            width: auto;
+        }
+    }
+    &__row {
+        display: table-row;
+        width: 100%;
+        @include media(xs) {
+            display: block;
+            width: auto;
+        }
+
+    }
+    &__header {
+        height: 105px;
+        display: table-cell;
+        width: 100%;
+        @include media(sm) {
+            height: 140px;
+        }
+        @include media(xs) {
+            display: block;
+            width: auto;
+            height: auto;
+            padding-bottom: 20px;
+        }
+
+    }
+    &__middle {
+        height: 100%;
+        display: table-cell;
+        width: 100%;
+        opacity: 0.8;
+        @include media(xs) {
+            display: block;
+            width: auto;
+            padding: 0 18px;
+        }
+
+        &__inner {
+            position: relative;
+            height: 100%;
+            /*
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            */
+            display: table;
+            width: 78%;
+            margin: 0 auto;
+            background-color: #1e1e1c;
+            @include media(xs) {
+                display: block;
+                width: auto;
+            }
+
+
+            &__header {
+                display: table-cell;
+                width: 100%;
+                height: 20%;
+                @include media(sm) {
+                    height: 30px;
+                }
+                @include media(xs) {
+                    display: block;
+                    width: auto;
+                    height: auto;
+                }
+
+            }
+            &__text-block {
+                display: table-cell;
+                width: 100%;
+                height: 100%;
+                padding: 10px 20px;
+                @include media(xs) {
+                    display: block;
+                    width: auto;
+                    height: auto;
+                    padding: 30px 20px 32px;
+                }
+
+            }
+            &__btn-block {
+                display: table-cell;
+                width: 100%;
+                vertical-align: top;
+                text-align: center;
+                height: 59px;
+                @include media(xs) {
+                    display: block;
+                    width: auto;
+                    height: auto;
+                    margin-bottom: 34px;
+                }
+
+            }
+            h2 {
+                font-weight: 300;
+                font-size: 32px;
+                color: white;
+                text-transform: uppercase;
+                text-align: center;
+                padding: 0;
+                margin: 0 0 16px 0;
+                @include media(xs) {
+                    font-size: 14px;
+
+                }
+            }
+            p {
+                font-weight: 300;
+                font-size: 24px;
+                color: white;
+                text-align: center;
+                padding: 0;
+                margin: 0 auto 14px;
+                margin-bottom: 16px;
+                line-height: 29px;
+                max-width: 702px;
+                &:last-of-type {
+                    margin-bottom: 0;
+                }
+                @include media(xs) {
+                    font-size: 14px;
+                    line-height: 16px;
+                }
+                a {
+                    color: white;
+                    //text-decoration: underline;
+                    span {
+                        display: inline-block;
+                        border-bottom: 1px solid rgba(255,255,255,.5);
+
+                    }
+                    &:hover, &:focus, &:active {
+                        color: white;
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+    }
+    &__bottom {
+        height: 136px;
+        display: table-cell;
+        width: 100%;
+//        padding-top: 29px;
+        text-align: center;
+        @include media(xs) {
+            display: block;
+            width: auto;
+            height: auto;
+            .container-corner_bottom {
+                position: relative;
+                top: -4px;
+            }
+        }
+
+        &__variants {
+            width: 426px;
+            margin: 13px auto 0;
+            @include media(sm) {
+                width: auto;
+            }
+            @include media(xs) {
+                width: auto;
+                margin: 18px auto 18px;
+            }
+            li {
+                margin-bottom: 9px;
+                &:last-child {
+                    margin-bottom: 0;
+                }
+            }
+        }
+        .menu-navigation {
+            display: inline-block;
+            margin-bottom: 14px;
+            margin-top: 24px;
+            @include media(xs) {
+                margin-top: 8px;
+                margin-bottom: 4px;
+            }
+        }
+
+
+    }
+
+    &__main-title {
+        margin: 0;
+        padding: 10px 0 0 0;
+        font-size: 62px;
+        text-align: center;
+        color: white;
+        font-weight: 300;
+        text-transform: uppercase;
+        line-height: 1;
+
+        @include media(xs) {
+            font-size: 24px;
+            padding: 23px 0 0 0;
+        }
+        img {
+            vertical-align: baseline;
+            display: inline-block;
+            margin: 0 10px;
+            height: 45px;
+            width: 45px;
+            @include media(xs) {
+                height: 20px;
+                width: 20px;
+            }
+        }
+        
+    }
+
+    &_s0 {
+        .fp-tableCell {
+            background-image: url("../img/Layer-51.png");
+        }
+        .section1__middle {
+            &__inner {
+                p {
+                    max-width: 710px;
+                }
+            }
+        }
+        .section1__header {
+            height: 40px;
+            @include media(xs) {
+                height: 20px;
+            }
+        }
+        .section1__middle__inner__header {
+            vertical-align: middle;
+            text-align: center;
+            padding-top: 15px;
+            @include media(xs) {
+                padding-top: 30px;
+            }
+        }
+
+        .section1__middle__inner__text-block {
+            @include media(xs) {
+                padding-top: 23px;
+            }
+        }
+        .section1__middle__inner__btn-block {
+            @include media(xs) {
+                margin-bottom: 26px;
+            }
+        }
+        .section1__bottom {
+            .menu-navigation {
+                @include media(xs) {
+                    margin-top: 18px;
+                }
+            }
+        }
+
+        .btn-next {
+            border-top: 1px solid #ffffff;
+            border-bottom: 1px solid #ffffff;
+            border-left: none;
+            border-right: none;
+            padding: 8px 31px;
+        }
+        
+        .section1__bottom {
+            height: 56px;
+            @include media(xs) {
+                display: block;
+                width: auto;
+                height: auto;
+            }
+
+        }
+    }
+    &_stotal {
+        .fp-tableCell {
+            background-image: url("../img/Layer-51.png");
+        }
+        .section1__middle {
+            &__inner {
+                p {
+                    max-width: 710px;
+                }
+            }
+        }
+        .section1__header {
+            height: 30px;
+            @include media(xs) {
+                height: 10px;
+            }
+        }
+        .section1__middle__inner__header {
+            vertical-align: middle;
+            text-align: center;
+            padding-top: 15px;
+            @include media(xs) {
+                padding-top: 20px;
+            }
+        }
+
+        .section1__middle__inner__text-block {
+            @include media(xs) {
+                padding-top: 15px;
+            }
+        }
+        .section1__middle__inner__btn-block {
+            @include media(xs) {
+                margin-bottom: 26px;
+            }
+        }
+        .section1__bottom {
+            .menu-navigation {
+                @include media(xs) {
+                    margin-top: 18px;
+                }
+            }
+        }
+
+        .btn-next {
+            border-top: 1px solid #ffffff;
+            border-bottom: 1px solid #ffffff;
+            border-left: none;
+            border-right: none;
+            padding: 8px 31px;
+        }
+
+        .section1__bottom {
+            height: 56px;
+            @include media(xs) {
+                display: block;
+                width: auto;
+                height: auto;
+            }
+
+        }
+    }
+    &_s1 {
+        .fp-tableCell {
+            background-image: url("../img/Layer-35.png");
+        }
+        .section1__middle {
+            &__inner {
+                p {
+                    max-width: 710px;
+                }
+            }
+        }
+    }
+    &_s2 {
+        .fp-tableCell {
+            background-image: url("../img/Layer-37.png");
+        }
+        .section1__middle {
+            &__inner {
+                p {
+                    max-width: 820px;
+                }
+            }
+        }
+    }
+    &_s3 {
+        .fp-tableCell {
+            background-image: url("../img/Layer-38.png");
+        }
+        .section1__middle {
+            &__inner {
+                p {
+                    max-width: 800px;
+                }
+            }
+        }
+    }
+    &_s4 {
+        .fp-tableCell {
+            background-image: url("../img/Layer-39.png");
+        }
+        .section1__middle {
+            &__inner {
+                p {
+                    max-width: 800px;
+                }
+            }
+        }
+    }
+    &_s5 {
+        .fp-tableCell {
+            background-image: url("../img/Layer-40.png");
+        }
+        .section1__middle {
+            &__inner {
+                p {
+                    max-width: 780px;
+                }
+            }
+        }
+    }
+    &_s6 {
+        .fp-tableCell {
+            background-image: url("../img/Layer-41.png");
+        }
+        .section1__middle {
+            &__inner {
+                p {
+                    max-width: 820px;
+                }
+            }
+        }
+    }
+    &_s7 {
+        .fp-tableCell {
+            background-image: url("../img/Layer-53.png");
+        }
+        .section1__middle {
+            &__inner {
+                p {
+                    max-width: 820px;
+                }
+            }
+        }
+    }
+    &_s8 {
+        .fp-tableCell {
+            background-image: url("../img/Layer-43.png");
+        }
+        .section1__middle {
+            &__inner {
+                p {
+                    max-width: 820px;
+                }
+            }
+        }
+    }
+    &_s9 {
+        .fp-tableCell {
+            background-image: url("../img/Layer-45.png");
+        }
+        .section1__middle {
+            &__inner {
+                p {
+                    max-width: 870px;
+                }
+            }
+        }
+    }
+    &_s10 {
+        .fp-tableCell {
+            background-image: url("../img/Layer-46.png");
+        }
+        .section1__middle {
+            &__inner {
+                p {
+                    max-width: 720px;
+                }
+            }
+        }
+    }
+    &_s11 {
+        .fp-tableCell {
+            background-image: url("../img/Layer-47.png");
+        }
+        .section1__middle {
+            &__inner {
+                p {
+                    max-width: 820px;
+                }
+            }
+        }
+    }
+    &_s12 {
+        .fp-tableCell {
+            background-image: url("../img/Layer-49.png");
+        }
+        .section1__middle {
+            &__inner {
+                p {
+                    max-width: 760px;
+                }
+            }
+        }
+    }
+    &_s13 {
+        .fp-tableCell {
+            background-image: url("../img/Layer-50.png");
+        }
+        .section1__middle {
+            &__inner {
+                p {
+                    max-width: 880px;
+                }
+            }
+        }
+    }
+    &_s14 {
+        .fp-tableCell {
+            background-image: url("../img/Layer-51.png");
+        }
+        .section1__middle {
+            &__inner {
+                p {
+                    max-width: 800px;
+                }
+            }
+        }
+    }
+}

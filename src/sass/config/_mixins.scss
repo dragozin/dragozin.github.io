@@ -1,0 +1,50 @@
+@mixin after-clear-both() {
+    &:after {
+        display: table;
+        content: '';
+        clear: both;
+    }
+}
+
+@mixin media ($class) {
+    @if $class == xs {
+        @media only screen and (max-width: $screen-xs-max) {
+            @content;
+        }
+    }
+    @else if $class == sm {
+        @media only screen and (min-width: $screen-sm) and (max-width: $screen-sm-max) {
+            @content;
+        }
+    }
+    @else if $class == md {
+        @media only screen and (min-width: $screen-md) and (max-width: $screen-md-max) {
+            @content;
+        }
+    }
+    @else if $class == lg {
+        @media only screen and (min-width: $screen-lg){
+            @content;
+        }
+    }
+    @else if $class == extra {
+        @media only screen and (min-width: $screen-extra){
+            @content;
+        }
+    }
+    @else {
+        @warn "Breakpoint mixin supports: xs, sm, md, lg, extra";
+    }
+}
+
+
+@mixin preload($url-list) {
+    &:after{
+        position:absolute;
+        width:0;
+        height:0;
+        overflow:hidden;
+        z-index:-1;
+        content: $url-list;
+    }
+}

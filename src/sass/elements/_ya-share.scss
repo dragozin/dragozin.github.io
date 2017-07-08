@@ -1,0 +1,44 @@
+.ya-share {
+    .ya-share2__item_service_vkontakte {
+        .ya-share2__icon {
+            background: url('../img/vk-total.png');
+            width: 29px;
+            height: 30px;
+        }
+
+        .ya-share2__badge {
+            background: none;
+        }
+    }
+
+
+    .ya-share2__container_size_m {
+        .ya-share2__counter {
+            display: none;
+        }
+        .ya-share2__item {
+            margin: 0;
+        }
+    }
+    .ya-share2__item_service_facebook {
+        .ya-share2__icon {
+            background: url('../img/fb-total.png');
+            width: 29px;
+            height: 30px;
+        }
+        .ya-share2__badge {
+            background: none;
+        }
+    }
+    .ya-share2__item_service_odnoklassniki {
+        .ya-share2__icon {
+            background: url('../img/ok-total.png');
+            width: 30px;
+            height: 30px;
+        }
+        .ya-share2__badge {
+            background: none;
+        }
+    }
+
+}

@@ -1,0 +1,26 @@
+
+
+@import "config/bootstrap-variables";
+@import "config/fonts";
+@import "config/mixins";
+$icon-font-path: "../../node_modules/bootstrap-sass/assets/fonts/bootstrap/";
+//@import "../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap-sprockets";
+@import "../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+@import "config/bootstrap-theme";
+
+
+//@import "config/defaults";
+
+@import "sections/section1";
+@import "sections/header";
+@import "sections/container-corner";
+
+@import "elements/btn-next";
+@import "elements/menu-navigation";
+@import "elements/ya-share";
+
+//@import "pages/basket-step1";
+
+@import "../../node_modules/hamburgers/_sass/hamburgers/hamburgers";
+
+

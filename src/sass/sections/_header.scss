@@ -1,0 +1,59 @@
+.header {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    @include media(xs) {
+
+    }
+
+    &__center {
+        width: 350px;
+        margin: 0 auto;
+        padding-top: 3px;
+        @include media(xs) {
+            width: auto;
+        }
+        ul {
+            margin-bottom: 0;
+            @include media(xs) {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                padding: 0 24px;
+                align-items: center;
+            }
+            li {
+                margin-right: 30px;
+                padding: 0;
+                &:last-child {
+                    margin-right: 0;
+                }
+                @include media(xs) {
+                    margin-right: 0;
+                }
+            }
+        }
+        &__line {
+            width: 2px;
+            height: 20px;
+            background-color: #888887;
+            display: inline-block;
+            vertical-align: middle;
+            position: relative;
+            top: -2px;
+        }
+
+    }
+    &__right {
+        float: right;
+        padding-top: 9px;
+        ul {
+            li {
+                padding: 0;
+                margin: 0 0 0 5px;
+            }
+        }
+    }
+
+}

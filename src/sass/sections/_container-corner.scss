@@ -1,0 +1,12 @@
+.container-corner_top {
+    background: url("../img/container-border-left-top.svg") left top no-repeat, url("../img/container-border-right-top.svg") right top no-repeat;
+    @include media(xs) {
+        background: url("../img/container-border-left-top_xs.svg") left top no-repeat, url("../img/container-border-right-top_xs.svg") right top no-repeat;
+    }
+}
+.container-corner_bottom {
+    background: url("../img/container-border-left-bottom.svg") left bottom no-repeat, url("../img/container-border-right-bottom.svg") right bottom no-repeat;
+    @include media(xs) {
+        background: url("../img/container-border-left-bottom_xs.svg") left bottom no-repeat, url("../img/container-border-right-bottom_xs.svg") right bottom no-repeat;
+    }
+}

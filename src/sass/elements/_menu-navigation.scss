@@ -1,0 +1,14 @@
+.menu-navigation {
+    a {
+        display: inline-block;
+        width: 8px;
+        height: 8px;
+        border: 1px solid white;
+        -webkit-border-radius: 15px;
+        -moz-border-radius: 15px;
+        border-radius: 15px;
+        &.active, &:hover {
+            background-color: white;
+        }
+    }
+}

@@ -1,0 +1,38 @@
+@font-face {
+    font-family: "GothamPro";
+    src: url("../fonts/gothampro/GothamPro/GothamPro.otf");
+    src: url("../fonts/gothampro/GothamPro/GothamPro.eot");
+    src: url("../fonts/gothampro/GothamPro/GothamPro.eot") format('embedded-opentype'),
+         url("../fonts/gothampro/GothamPro/GothamPro.woff2") format('woff2'),
+         url("../fonts/gothampro/GothamPro/GothamPro.woff") format('woff'),
+         url('../fonts/gothampro/GothamPro/GothamPro.ttf') format('truetype'),
+         url('../fonts/gothampro/GothamPro/GothamPro.svg#GothamPro') format('svg');
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "GothamPro";
+    src: url("../fonts/gothampro/GothamPro-Light/GothamPro-Light.otf");
+    src: url("../fonts/gothampro/GothamPro-Light/GothamPro-Light.eot");
+    src: url("../fonts/gothampro/GothamPro-Light/GothamPro-Light.eot") format('embedded-opentype'),
+         url("../fonts/gothampro/GothamPro-Light/GothamPro-Light.woff2") format('woff2'),
+         url("../fonts/gothampro/GothamPro-Light/GothamPro-Light.woff") format('woff'),
+         url('../fonts/gothampro/GothamPro-Light/GothamPro-Light.ttf') format('truetype'),
+         url('../fonts/gothampro/GothamPro-Light/GothamPro-Light.svg#GothamProLight') format('svg');
+    font-style: normal;
+    font-weight: 300;
+}
+@font-face {
+    font-family: "GothamPro";
+    src: url("../fonts/gothampro/GothamPro-Bold/GothamPro-Bold.otf");
+    src: url("../fonts/gothampro/GothamPro-Bold/GothamPro-Bold.eot");
+    src: url("../fonts/gothampro/GothamPro-Bold/GothamPro-Bold.eot") format('embedded-opentype'),
+         url("../fonts/gothampro/GothamPro-Bold/GothamPro-Bold.woff2") format('woff2'),
+         url("../fonts/gothampro/GothamPro-Bold/GothamPro-Bold.woff") format('woff'),
+         url('../fonts/gothampro/GothamPro-Bold/GothamPro-Bold.ttf') format('truetype'),
+         url('../fonts/gothampro/GothamPro-Bold/GothamPro-Bold.svg#GothamProBold') format('svg');
+    font-style: normal;
+    font-weight: bold;
+}
+
+

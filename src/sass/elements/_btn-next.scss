@@ -1,0 +1,18 @@
+.btn-next {
+    font-size: 14px;
+    display: inline-block;
+    padding: 3px 31px;
+    font-weight: 300;
+    border-left: 1px solid #ffffff;
+    border-right: 1px solid #ffffff;
+    color: white;
+    line-height: 1;
+    &:hover, &:focus, &:active {
+        color: white;
+        text-decoration: none;
+    }
+    @include media(xs) {
+        font-size: 15px;
+        padding: 8px 12px;
+    }
+}
